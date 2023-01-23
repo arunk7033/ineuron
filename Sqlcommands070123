@@ -1,3 +1,15 @@
+#Creating a DATABASE
+CREATE DATABASE test;
+
+#Creating a table t1
+CREATE TABLE t1 (x1 VARCHAR(40) ,x2 INT , x3 VARCHAR(60) , x4 VARCHAR(90) );
+
+#Showing all the columns from table t1
+select * from t1;
+
+#Inserting values into table t1
+INSERT INTO t1 VALUES('sudh' , 345 , 'kumar' , "ineuron");
+
 #Creating another table fsds
 
 CREATE Table fsds (Student_name VARCHAR(50), email_id VARCHAR(90), Phone_number INT);
