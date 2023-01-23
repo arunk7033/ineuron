@@ -23,3 +23,15 @@ SELECT * from fsds;
 
 #Inserting multiple values into table fsds at a time
 INSERT INTO fsds VALUES('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094);
+
+
+
+#Establishing a connection between Python and MySQL
+
+import mysql.connector
+mydb=mysql.connector.connect(
+    host="localhost",
+    user="abc",
+    password="password",
+)
+print(mydb)
