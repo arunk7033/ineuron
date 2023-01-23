@@ -1,0 +1,13 @@
+#Creating another table fsds
+
+CREATE Table fsds (Student_name VARCHAR(50), email_id VARCHAR(90), Phone_number INT);
+
+#Inserting values into table fsds
+
+INSERT INTO fsds VALUES('Varun Kumar', 'varunkr397@gmail.com', 729094);
+
+#Searching from table fsds
+SELECT * from fsds;
+
+#Inserting multiple values into table fsds at a time
+INSERT INTO fsds VALUES('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094),('Varun Kumar', 'varunkr397@gmail.com', 729094);
