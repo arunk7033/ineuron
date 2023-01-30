@@ -100,6 +100,29 @@ cur.execute("insert into fsds1 values('Arun',12,'arunk7033')")
 
 mydb.commit()
 
+#Showing all contrnts of table fsds1 from Database fsds_db:
+
+
+import mysql.connector
+mydb=mysql.connector.connect(
+    host="localhost",
+    user="abc",
+    password="password",
+)
+print(mydb.is_connected())
+
+cur=mydb.cursor()
+
+cur.execute("use fsds_db")
+
+cur.execute("insert into fsds1 values('Arun',12,'arunk7033')")
+
+mydb.commit()
+
+cur.execute("select * from fsds_db.fsds1")
+
+for i in cur:
+    print(i)
 
 
 
