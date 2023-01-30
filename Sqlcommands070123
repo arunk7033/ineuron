@@ -100,7 +100,7 @@ cur.execute("insert into fsds1 values('Arun',12,'arunk7033')")
 
 mydb.commit()
 
-#Showing all contrnts of table fsds1 from Database fsds_db:
+#Showing all contrnts of table fsds1 from Database fsds_db in the form of tuples:
 
 
 import mysql.connector
