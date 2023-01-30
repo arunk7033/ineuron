@@ -1,3 +1,5 @@
+#Creating Database ineuron:
+
 import mysql.connector
 # import mysql.connector
 #create user 'user'@'%' identified by 'password'
