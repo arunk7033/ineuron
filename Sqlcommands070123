@@ -38,3 +38,13 @@ print(mydb)
 
 print(mydb.is_connected()) #Returns true if connected to server
 
+
+#Creating cursor and "show databases" command:
+
+cur=mydb.cursor()
+
+a=cur.execute("show databases")
+
+for i in cur:
+    print(i)
+    
