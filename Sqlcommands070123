@@ -35,3 +35,6 @@ mydb=mysql.connector.connect(
     password="password",
 )
 print(mydb)
+
+print(mydb.is_connected()) #Returns true if connected to server
+
