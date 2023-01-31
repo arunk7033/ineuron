@@ -88,4 +88,29 @@ for i in mycursor:
 #Output
 (128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
 
+#Displaying all content from table fsds where studentid>125:
+
+mycursor.execute("select * from ineuron.fsds where studentid>125")
+
+for i in mycursor:
+    print(i)
+    
+#Output
+(126, 'Ashish', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(127, 'Karan', 'Singh', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(130, 'Ram', 'Sagar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+
+#Displaying all content from table fsds where firstname='Ankit' and class='sql':
+
+mycursor.execute("select * from ineuron.fsds where firstname='Ankit' and class='sql' ")
+
+for i in mycursor:
+    print(i)
+    
+#Output
+(128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+
+
 
