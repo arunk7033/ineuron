@@ -177,9 +177,20 @@ for i in mycursor:
 #Output
 (7,)
 
+#Updating class = 'sql' where studentid between 123 and 127 :
+mycursor.execute("update ineuron.fsds set class = 'sql' where studentid between 123 and 127")
+mydb.commit()
+mycursor.execute("select * from ineuron.fsds")
+for i in mycursor:
+    print(i)
 
-
-
-
+#Output
+(123, 'Arun', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(124, 'Varun', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(125, 'Vicky', 'Kumari', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(126, 'Ashish', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(127, 'Arav', 'Singh', datetime.date(2022, 11, 11), 'sql', 'fsds')
+(128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'mysql', 'fsds')
 
 
