@@ -140,6 +140,9 @@ mydb.commit()
 (130, 'Ram', 'Sagar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
 
 
+#Deleting entry from ineuron.fsds where lastname = 'Sagar':
+mycursor.execute("delete from ineuron.fsds where lastname = 'Sagar' ")
+mydb.commit()
 
 
 
