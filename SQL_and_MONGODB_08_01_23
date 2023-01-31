@@ -85,3 +85,7 @@ for i in mycursor:
 for i in mycursor:
     print(i)
 
+#Output
+(128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'sql', 'fsds')
+
+
