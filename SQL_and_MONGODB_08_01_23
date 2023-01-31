@@ -221,3 +221,9 @@ for i in mycursor:
 (4, 'sql')
 (3, 'mongodb')
 
+#Deleting table fsds:
+mycursor.execute("drop table ineuron.fsds")
+mydb.commit()
+
+#Deleting database ineuron:
+mycursor.execute("drop database ineuron")
