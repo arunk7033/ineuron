@@ -157,3 +157,29 @@ mydb.commit()
 mycursor.execute("select min(studentid) from ineuron.fsds")
 for i in mycursor:
     print(i)
+
+#Output
+(123,)
+
+#Selecting max(studentid) from ineuron.fsds:
+mycursor.execute("select max(studentid) from ineuron.fsds")
+for i in mycursor:
+    print(i)
+
+#Output
+(129,)
+
+#Counts total no of rows of ineuron.fsds:
+mycursor.execute("select count(*) from ineuron.fsds")
+for i in mycursor:
+    print(i)
+    
+#Output
+(7,)
+
+
+
+
+
+
+
