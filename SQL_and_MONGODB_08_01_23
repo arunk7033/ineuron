@@ -125,7 +125,19 @@ mydb.commit()
 (129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'sql', 'fsds')
 (130, 'Ram', 'Sagar', datetime.date(2022, 11, 11), 'sql', 'fsds')
 
+#Updating class = 'mysql' :
+# mycursor.execute("update ineuron.fsds set class = 'mysql' ")
+# mydb.commit()
 
+#Output
+(123, 'Arun', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(124, 'Varun', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(125, 'Vicky', 'Kumari', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(126, 'Ashish', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(127, 'Arav', 'Singh', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(130, 'Ram', 'Sagar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
 
 
 
