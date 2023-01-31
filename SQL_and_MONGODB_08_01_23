@@ -144,6 +144,13 @@ mydb.commit()
 mycursor.execute("delete from ineuron.fsds where lastname = 'Sagar' ")
 mydb.commit()
 
-
+#Output
+(123, 'Arun', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(124, 'Varun', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(125, 'Vicky', 'Kumari', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(126, 'Ashish', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(127, 'Arav', 'Singh', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
+(129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'mysql', 'fsds')
 
 
