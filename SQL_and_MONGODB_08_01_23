@@ -77,4 +77,11 @@ mycursor.execute("select studentid, firstname, class from ineuron.fsds")
 
 for i in mycursor:
     print(i)
+    
+ #Displaying all content from table fsds where studentid=128:
+ 
+ mycursor.execute("select * from ineuron.fsds where studentid=128")
+
+for i in mycursor:
+    print(i)
 
