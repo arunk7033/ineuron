@@ -153,4 +153,7 @@ mydb.commit()
 (128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'mysql', 'fsds')
 (129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'mysql', 'fsds')
 
-
+#Selecting min(studentid) from ineuron.fsds:
+mycursor.execute("select min(studentid) from ineuron.fsds")
+for i in mycursor:
+    print(i)
