@@ -212,7 +212,7 @@ for i in mycursor:
 (128, 'Ankit', 'Kumar', datetime.date(2022, 11, 11), 'mongodb', 'fsds')
 (129, 'Akash', 'Solanki', datetime.date(2022, 11, 11), 'mongodb', 'fsds')
 
-#Counting total no. of diffent entries in class columnn:
+#Counting total no. of distinct entries in class columnn:
 mycursor.execute("select count(*), class from ineuron.fsds group by class")
 for i in mycursor:
     print(i)
