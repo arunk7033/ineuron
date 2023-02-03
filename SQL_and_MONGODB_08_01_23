@@ -227,3 +227,17 @@ mydb.commit()
 
 #Deleting database ineuron:
 mycursor.execute("drop database ineuron")
+
+#Creating Database on MONGODB
+
+pip install pymongo
+
+import pymongo
+
+client = pymongo.MongoClient("mongodb+srv://jneuron:jneuron@cluster0.2hw1m6g.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+print(db)
+
+#Output
+
+Database(MongoClient(host=['ac-l6qamgg-shard-00-01.2hw1m6g.mongodb.net:27017', 'ac-l6qamgg-shard-00-00.2hw1m6g.mongodb.net:27017', 'ac-l6qamgg-shard-00-02.2hw1m6g.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, retrywrites=True, w='majority', authsource='admin', replicaset='atlas-korj28-shard-0', tls=True), 'test')
