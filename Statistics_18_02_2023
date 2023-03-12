@@ -3,3 +3,19 @@ Statistics is the science of collecting, organizing and analyzing data
 
 Data : "facts and pieces of information"
 Example of Data: Height of students in classroom, IQ of students, Daily activities, Weight of people, Age
+
+Types of Statistics:
+1. Descritive statistics
+2. Inferential statistics
+
+Descritive statistics: It consists of organizing and summarizing data
+1. Measure of central tendency {Mean, Median, Mode}
+2. Measure of dispersion{Variance, Standard deviation}
+3. Different types of distribution of data {Histogram, PDF, PMF, CDF}
+Central limit theorem
+
+Inferential statistics: It consists of data you have measured to form conclusions
+Sample data is used to form conclusion on population using "Hypothesis Testing"
+
+
+
